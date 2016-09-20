@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    display: block;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+canvas {
+    margin-top: -40px;
+}
