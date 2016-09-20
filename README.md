@@ -9,11 +9,11 @@ The object of the game is simple, you must direct the hero character across the 
 
 Your score is based on your current score + (level x 2) for each level you pass.
 
-The enemy bugs run across the screen at random speeds in the x direction and random y locations given their contraints which is between the grey bricks.
+The enemy bugs run across the screen at random speeds in the x direction and random y locations given their constraints which is between the grey bricks.
 
-The number of enemy bugs will incease by 1 until level 6 where an increase of 1 bug will be added to the total enemies each time you complete the level.
+The number of enemy bugs will increase by 1 until level 6 where an increase of 1 bug will be added to the total enemies each time you complete the level.
 
-If you run into an enemy bug, you will reset, your level decreases by 1, your score decreases by 1 and the enemy you run into will disappear. Your enemy 'Bob' & 'Billy' are currently invincible, that will be changed in the next update of the game.
+If you run into an enemy bug, you will reset, your level decreases by 1, your score decreases by 1 and the enemy you run into will disappear.
 
 ![frogger image](/images/froggerwill.png)
 
