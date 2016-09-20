@@ -21,39 +21,49 @@ If you run into an enemy bug, you will reset, your level decreases by 1, your sc
 Users control the hero character by using the main keyboard keys: [  ←   →   ↑   ↓  ] arrow keys on their keyboard. There is no press down and hold option, you must press each key to move in that specific direction.
 
 ## Demo the game
-* Demo game: [bitballon hosting](http://announcer-initials-27650.bitballoon.com/ "Play game demo")
+* Link to Demo: [Demo Me](http://announcer-initials-27650.bitballoon.com/ "Play game demo")
 
 ## Github pages website
-* Github pages website: [https://iamwill123.github.io/Frogger-Arcade-Game/](https://iamwill123.github.io/Frogger-Arcade-Game/ "Github Pages Website")
+* Github pages website: [Frogger Arcade Game](https://iamwill123.github.io/Frogger-Arcade-Game/ "Github Pages Website")
 
 ## Modifications of your own :raised_hands:
 
 1. Download the GitHub zip file or clone the repository onto your local workstation:
-    * zip file [https://github.com/iamwill123/Frogger-Arcade-Game/archive/master.zip](https://github.com/iamwill123/Frogger-Arcade-Game/archive/master.zip "Zip file")
-    * git clone [https://github.com/iamwill123/Frogger-Arcade-Game.git](https://github.com/iamwill123/Frogger-Arcade-Game.git "clone repository")
+    * zip file: [https://github.com/iamwill123/Frogger-Arcade-Game/archive/master.zip](https://github.com/iamwill123/Frogger-Arcade-Game/archive/master.zip "Zip file")
+    * git clone: [https://github.com/iamwill123/Frogger-Arcade-Game.git](https://github.com/iamwill123/Frogger-Arcade-Game.git "clone repository")
 
 2. To check out the game, navigate to the index.html file in your application's directory and double click to open in your browser.
 
 ## Tools & Techniques involved
-- Object-Oriented JavaScript
-- constructor functions to create multiple Enemy instances
-- prototypal inheritance
-- HTML5 Canvas API
-- resource loading via immediately-invoked function expressions (IIFE)
+1. Object-Oriented JavaScript
+    - Scopes
+    - Closures
+    - The 'this' Keyword
+    - Prototype Chains
+    - Object Decorator Pattern
+    - Functional Classes
+    - Prototypal Classes
+    - Superclass and Subclass
+    - Pseudoclassical Subclasses
+2. HTML5 Canvas API
+    - HTML5 Canvas Basics
+    - From Pixels to Animation
 
 ## List of Resources
 [http://www.w3schools.com/Tags/ref_canvas.asp](http://www.w3schools.com/Tags/ref_canvas.asp "HTML5 Canvas Reference")
 
 [https://github.com/udacity/frontend-nanodegree-arcade-game](https://github.com/udacity/frontend-nanodegree-arcade-game "Udacity Frontend arcade game")
 
-#The Udacity Project Requirements
+===============================
 
-## How do I complete this project?
+##The Udacity Project Requirements
+
+### How do I complete this project?
 
 #### Students should use this rubric for self-checking their submission:
 [https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797/](https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797/ "Frogger Arcade Game Project Requirements")
 
-frontend-nanodegree-arcade-game
+##frontend-nanodegree-arcade-game
 ===============================
 
 Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
