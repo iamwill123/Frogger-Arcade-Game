@@ -87,6 +87,8 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
+.text-center {text-align: center;}
+
 a {
   color:#39c;
   text-decoration:none;
@@ -155,6 +157,7 @@ th {
 
 img {
   max-width:100%;
+
 }
 
 header {
@@ -244,7 +247,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
