@@ -28,6 +28,7 @@ var Enemy = function(sprite, x, y, name, movement) {
 };
 // Enemy prototype to inherit Character.prototype's methods
 Enemy.prototype = Object.create(Character.prototype);
+Enemy.prototype.constructor = Enemy;
 
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks
@@ -58,22 +59,22 @@ var Player = function(sprite, x, y, name, movement) {
 };
 
 Player.prototype = Object.create(Character.prototype);
+Player.prototype.constructor = Player;
 
-Player.prototype.update = function(dt) {
-};
+// Use this update method later
+// Player.prototype.update = function(dt) {
+// };
 
 //Input handler for player
 Player.prototype.handleInput = function(e) {
 
-    this.ctlKey = e;
-
-    if (this.ctlKey === 'left' && this.x > 0){
+    if (e === 'left' && this.x > 0){
         this.x -= this.movement;
     }
-    else if (this.ctlKey === 'right' && this.x < 400){
+    else if (e === 'right' && this.x < 400){
         this.x += this.movement;
     }
-    else if (this.ctlKey === 'up'){
+    else if (e === 'up'){
         // This contraint makes sure you reset each time you reach the water.
         if (this.y < 40){
 
@@ -91,7 +92,7 @@ Player.prototype.handleInput = function(e) {
             this.y -= this.movement;
         }
     }
-    else if (this.ctlKey === 'down' && this.y < 400){
+    else if (e === 'down' && this.y < 400){
         this.y += this.movement;
     }
 };
@@ -130,8 +131,8 @@ var decreaseLevel = function() {
 var checkCollision = function() {
     //If the player reachs enemy proximity by 40px in all directions, execute the following
     for (var i = 0; i < allEnemies.length; i++) {
-        if (player.x >= allEnemies[i].x - 40 && player.x <= allEnemies[i].x + 40) {
-            if (player.y >= allEnemies[i].y - 40 && player.y <= allEnemies[i].y + 40) {
+        if (Math.abs(player.x - allEnemies[i].x) <= 40) {
+            if (Math.abs(player.y - allEnemies[i].y) <= 40) { //Math.abs(-x) = x
                 player.reset();
                 decreaseLevel(); // decrease level
                 displayStats(); // update stats when levels decrease
