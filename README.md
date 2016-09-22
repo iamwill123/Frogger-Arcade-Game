@@ -21,7 +21,7 @@ If you run into an enemy bug, you will reset, your level decreases by 1, your sc
 Users control the hero character by using the main keyboard keys: [  ←   →   ↑   ↓  ] arrow keys on their keyboard. There is no press down and hold option, you must press each key to move in that specific direction.
 
 ## Demo the game
-* Link to Demo: [Demo Me](http://assembler-crocodile-14150.bitballoon.com/ "Play game demo")
+* Play Zeh Demo: [Demo Me](https://iamwill123.github.io/Frogger-Arcade-Game/game.html "Play game demo")
 
 ## Github pages website
 * Github pages website: [Frogger Arcade Game](https://iamwill123.github.io/Frogger-Arcade-Game/ "Github Pages Website")
