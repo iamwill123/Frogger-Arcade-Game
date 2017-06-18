@@ -8,7 +8,7 @@ var Character = function(sprite, x, y, name) {
 
 Character.prototype.render = function() {
     // calls the context from canvas to draw the sprite image
-    // and to position the inage
+    // and to position the image
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     ctx.font = "15px Roboto";
     ctx.textAlign = "center";
